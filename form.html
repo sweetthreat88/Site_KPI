@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <title> Зареєструватися </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Css/form.css">
+  <link rel="stylesheet" href="font_awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+  <div class="first_block">
+    <div class="first_block_in">
+      <header class="top_panel">
+        <div class="logo">
+          <span>#</span>BhIgor
+        </div>
+        <nav class="list">
+          <ul>
+            <li>
+              <a href="#" class="main_list">Контакти</a>
+            </li>
+            <li>
+              <a href="#" class="main_list  main_1">Меню</a>
+              <ul class="inside">
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">Контакти</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html" class="main_list"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="registration">
+        <div class="registration_in">
+          <h1>Реєстрація</h1><br>
+          <form method="post" action="#" name="registration" id="registration">
+            <fieldset>
+              <legend>Інформація щодо студента</legend>
+              <div class="sticker">
+                <label for="name">Ім'я</label><br>
+                <label for="surname" name="surname">Прізвище</label><br>
+                <label for="date">Дата народження</label>
+              </div>
+              <div class="field">
+                <input type="text" name="name" id="name" placeholder="Димка" class="name"><br>
+                <input type="text" name="surname" id="surname" placeholder="Загарницкий" class="nameSurname"><br>
+                <input type="date" name="date" id="date">
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Аккаунт</legend>
+              <div class="sticker">
+                <label for="email">Адреса</label><br>
+                <label for="password">Пароль</label><br>
+              </div>
+              <div class="field">
+                <input type="email" name="email" id="email" placeholder="zahar99@gmail.com" class="emailEmail"><br>
+                <input type="password" name="surname" id="password" placeholder="Введіть пароль"><br>
+              </div>
+            </fieldset>
+            <div class="checkbox">
+              <input type="checkbox" name="rules" value="yes" checked><span>Я погоджуюсь с правилами користування
+                сайтом</span>
+            </div><br>
+            <div class="bottom_button">
+              <div class="download">
+                <a href="files/rules.docx" download>Завантажити правила</a>
+              </div>
+              <div class="go">
+                <button type="submit" class="accept">&#10004;</button>
+              </div>
+              <div class="discard">
+                <button type="reset" name="discard">&#10006;</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </div>
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+
+</html>

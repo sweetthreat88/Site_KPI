@@ -1,0 +1,151 @@
+body {
+  margin:0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/montserrat.ttf);
+   }
+
+.first_block {
+  background-image: url('../images/main_photo.jpg');
+  background-size: cover;
+}
+
+.first_block_in {
+  background-color: rgba(31, 51, 51, 0.8);
+  padding-bottom: 100px;
+}
+
+.top_panel {
+  padding: 60px 60px 0 60px;
+  text-align: right;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 60px;
+  top:64px;
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.logo  span {
+  display: inline-block;
+  margin-right:6px;
+}
+
+.list {
+  color: #fff;
+  display:inline-block;
+}
+
+.list ul {
+  display: inline-block;
+  margin:0;
+  padding:0;
+  font-size: 0;
+
+}
+
+.list ul li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+}
+
+.list ul li a {
+  display: inline-block;
+  font-family: 'Poiret One', cursive;
+  font-size: 28px;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.4s linear 0s;
+}
+
+.list ul li a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.main_list {
+  padding: 10px 48px;
+}
+
+.list ul li:last-of-type .main_list {
+  padding:20px 26px;
+  border-radius: 50%;
+  transition: background-color 0.3s linear 0s;
+}
+
+.list ul li:last-of-type .main_list:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.list ul li:hover .main_1 {
+  background-color: rgba(255,255,255,0.4);
+}
+
+.inside {
+  display: none;
+  padding:0;
+  margin:0;
+  position:absolute;
+  left:-9999px;
+  top:52px;
+  text-align: left;
+}
+
+.list ul li:hover .inside {
+  display: block;
+  left:0;
+  transition: left 0s linear 40ms;
+}
+
+.inside a {
+  width:170px;
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.questionnaire {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.questionnaire img {
+  width:400px;
+  height:auto;
+  display: inline-block;
+  margin: 50px 0;
+}
+
+.image_music {
+  display:inline-block;
+  text-align: center;
+}
+
+.questionnaire_text {
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  display:inline-block;
+  color:#fff;
+  vertical-align: top;
+  margin-top: 60px;
+  margin-left:120px;
+  background-color: rgba(255,255,255,0.2);
+  padding: 0 30px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+  text-align:center;
+  margin-bottom: 10px;
+  letter-spacing: 6px;
+}

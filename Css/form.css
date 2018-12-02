@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+}
+
+.first_block {
+  background-image: url("../images/main_photo.jpg");
+  background-size: cover;
+}
+
+.first_block_in {
+  background-color: rgba(31, 51, 51, 0.8);
+  padding-bottom: 100px;
+}
+
+.top_panel {
+  padding: 60px 60px 0 60px;
+  text-align: right;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 60px;
+  top: 64px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.logo span {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.list {
+  color: #fff;
+  display: inline-block;
+}
+
+.list ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.list ul li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+}
+
+.list ul li a {
+  display: inline-block;
+  font-family: "Poiret One", cursive;
+  font-size: 28px;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.4s linear 0s;
+}
+
+.list ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main_list {
+  padding: 10px 48px;
+}
+
+.list ul li:last-of-type .main_list {
+  padding: 20px 24px;
+  border-radius: 50%;
+  transition: background-color 0.3s linear 0s;
+}
+
+.list ul li:last-of-type .main_list:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.list ul li:hover .main_1 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.inside {
+  display: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: -9999px;
+  top: 52px;
+  text-align: left;
+}
+
+.list ul li:hover .inside {
+  display: block;
+  left: 0;
+  transition: left 0s linear 40ms;
+}
+
+.inside a {
+  width: 170px;
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.registration {
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Poiret One", cursive;
+}
+
+.registration_in {
+  padding: 50px;
+  padding-top: 10px;
+  display: inline-block;
+  border-radius: 40px;
+  border: 2px solid #fff;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 6px;
+  line-height: 20px;
+  display: inline-block;
+  margin-bottom: 70px;
+}
+
+fieldset {
+  text-align: right;
+  padding: 30px 40px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+legend {
+  font-size: 36px;
+}
+
+label {
+  font-size: 30px;
+}
+
+.sticker,
+.field {
+  display: inline-block;
+}
+
+.sticker {
+  text-align: left;
+}
+
+.field {
+  margin-left: 60px;
+}
+
+fieldset:nth-of-type(2) .field {
+  margin-left: 190px;
+}
+
+.field input {
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(31, 51, 51, 0.7);
+  font-family: "Poiret One", cursive;
+  border-radius: 6px;
+  font-size: 28px;
+  padding: 4px;
+  padding-left: 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.sticker label {
+  display: inline-block;
+  margin-bottom: 28px;
+}
+
+.checkbox {
+  text-align: left;
+}
+
+.checkbox input {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.checkbox span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+.bottom_button {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 0;
+}
+
+.download,
+.go,
+.discard {
+  display: inline-block;
+}
+
+.bottom_button a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(31, 51, 51, 0.7);
+  transition: color 0.3s linear 0s;
+  transition: background-color 0.3s linear 0s;
+}
+
+.download {
+  margin-right: 136px;
+  vertical-align: top;
+}
+
+.bottom_button a:hover {
+  color: rgba(31, 51, 51, 0.7);
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.go {
+  margin-right: 30px;
+}
+
+.go button,
+.discard button {
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 10px;
+  font-size: 30px;
+  outline: none;
+  transition: color 0.2s linear 0s;
+  transition: background-color 0.2s linear 0s;
+  transition: transform 0.2s linear 0s;
+  font-size: 40px;
+}
+
+.go button {
+  background-color: rgba(0, 224, 50, 0.8);
+}
+
+.discard button {
+  background-color: rgba(255, 31, 31, 0.8);
+}
+
+.go input:hover {
+  background-color: #fff;
+  color: rgba(0, 224, 50, 0.8);
+  transform: scale(1.05, 1.05);
+}
+
+.discard input:hover {
+  background-color: #fff;
+  color: rgba(255, 31, 31, 0.8);
+  transform: scale(1.05, 1.05);
+}
+/*.discard {
+  display: inline-block;
+}
+
+.discard input {
+  padding:10px;
+  border-radius: 6px;
+}*/
